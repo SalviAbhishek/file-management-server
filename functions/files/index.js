@@ -10,8 +10,6 @@ exports.uploadFile = async (req, res) => {
   const response = {};
   try {
     let file = req?.file;
-    console.log(req?.file, "file");
-
     let newFile = new mFilesModel({
       name: file?.filename,
       url: file?.path,
