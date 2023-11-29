@@ -25,4 +25,4 @@ const schema = mongoose.Schema(
 );
 schema.plugin(aggregatePaginate);
 
-module.exports = mongoose.model("files", schema, mongoUtils.OTP_COLLECTION);
+module.exports = mongoose.model("files", schema, mongoUtils.FILES_COLLECTION);

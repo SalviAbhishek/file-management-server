@@ -3,4 +3,6 @@ module.exports = {
   MongoURI:
     "mongodb+srv://abhishek:TeleSeason989@cluster0.tlalshw.mongodb.net/file-management",
   USERS_COLLECTION: "users",
+  OTP_COLLECTION: "otps",
+  FILES_COLLECTION: "files",
 };
